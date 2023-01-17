@@ -1,0 +1,35 @@
+body {
+  background: #cecece;
+  font-family: 'Raleway', sans-serif; /*muda a regra de fontes da página por completo / fontes com dois nomes, ultilizar aspas*/
+  color: rgb(34, 34, 34);
+}
+
+.foto-principal{ /*adiciona aparência na classe desejada (obrigatório .).*/
+  width: 200px; /*widht = tamanho da imagem em pixels*/
+  border: 2px solid #ffffff; /*border = adicona borda a imagem / px = tamanho da borda em pixels / shorthand */
+  border-radius: 50%;
+  /*
+  margin-top: 30px;
+  margin-bottom: 100px; define as margens da imagem, pode ser feita de forma simplificada (shorthand).
+  margin-left: 500px;
+  */
+  margin: 30px 30px 30px 30px;
+  padding: 3px;
+  box-shadow: 0px 0px 10px #757575;  
+
+}
+h1{
+  margin-bottom: 0;
+  letter-spacing: -1px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 45px;
+}
+
+h2{
+  margin-top: 0;/*margem da linha*/
+  font-style: italic; /*estilo da fonte*/
+  color: rgb(73, 73, 73);
+  font-weight: 100;/*altera entre negrito e simples*/
+  letter-spacing: -1px; /*espaçamento entre as letras*/
+}
+ 

@@ -1,0 +1,12 @@
+body {
+  background-image: url(background.jpg); /*tag para adicionar imagem ao background*/
+  /*background-repeat: no-repeat;      tag para não repetir a imagem no background*/
+  /*background-position: 100% 10%; posição da imagem em porcentagem*/
+  /*background-position: center center; posição da imagem*/
+  /*background-size: cover; tag para imagem expandir e ocupar toda a tela*/
+  background-attachment: fixed; /*fixa a imagem no scrol da pagina*/
+}
+
+p {
+  color: rgb(34, 34, 34);
+}

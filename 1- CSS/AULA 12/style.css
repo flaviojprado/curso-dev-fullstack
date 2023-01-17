@@ -1,0 +1,87 @@
+body {
+  background: #cecece;
+  font-family: 'Raleway', sans-serif; /*muda a regra de fontes da página por completo / fontes com dois nomes, ultilizar aspas*/
+  color: rgb(34, 34, 34);
+  margin: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.foto-principal{ /*adiciona aparência na classe desejada (obrigatório .).*/
+  width: 200px; /*widht = tamanho da imagem em pixels*/
+  border: 2px solid #ffffff; /*border = adicona borda a imagem / px = tamanho da borda em pixels / shorthand */
+  border-radius: 50%;
+  /*
+  margin-top: 30px;
+  margin-bottom: 100px; define as margens da imagem, pode ser feita de forma simplificada (shorthand).
+  margin-left: 500px;
+  */
+  margin: 30px 30px 0px 30px;
+  padding: 3px;
+  box-shadow: 0px 0px 10px #757575;  
+
+}
+h1{
+  margin-top: 10px;
+  margin-bottom: 0;
+  letter-spacing: -1px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 45px;
+}
+
+h2{
+  margin-top: 0;/*margem da linha*/
+  font-style: italic; /*estilo da fonte*/
+  color: rgb(73, 73, 73);
+  font-weight: 100;/*altera entre negrito e simples*/
+  letter-spacing: -1px; /*espaçamento entre as letras*/
+}
+ 
+h4 {
+  margin-bottom: 5px;
+}
+
+h5 {
+  margin-top: 0px; 
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+p{
+  line-height: 25px;
+  margin-top: 0;
+}
+.social-links {
+ text-decoration: none; /*remove a linha de hyperlink de uma imagem*/
+}
+
+.social-icons {
+  width: 40px;
+}
+
+.github {
+  margin: 0px 30px 0px 30px;
+}
+
+.jobs-list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.footer {
+background-color: black;
+margin-top: 40px;
+color: white;
+text-align: center;
+padding: 10px 0;
+}
+  

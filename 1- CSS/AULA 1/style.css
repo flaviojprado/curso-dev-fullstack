@@ -1,0 +1,15 @@
+body{
+    background: blue; /*background = tag para mudar a cor principal do site*/
+}
+
+h3{
+    color: green; /*color = cor do texto /pode ser usado para alterar a cor de qualquer tag do HTML*/
+}
+
+.foto{
+    width: 150px; /*tamanho da imagem*/
+}
+
+#titulo-principal{ /* # conversa com identificador unico no HTML */
+    color: cyan;
+}

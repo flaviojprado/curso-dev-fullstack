@@ -1,0 +1,20 @@
+body {
+  background: #cecece;
+}
+
+p {
+  color: rgb(34, 34, 34);
+}
+
+.foto-principal{ /*adiciona aparência na classe desejada (obrigatório .).*/
+  width: 200px; /*widht = tamanho da imagem em pixels*/
+  border: 2px solid #ffffff; /*border = adicona borda a imagem / px = tamanho da borda em pixels / shorthand */
+  border-radius: 50%;
+  /*
+  margin-top: 30px;
+  margin-bottom: 100px; define as margens da imagem, pode ser feita de forma simplificada (shorthand).
+  margin-left: 500px;
+  */
+  margin: 30px 30px 30px 30px;
+  padding: 5px;
+}
